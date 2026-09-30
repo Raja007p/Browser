@@ -1,0 +1,6 @@
+{
+  "name": "Aegis Privacy Browser",
+  "description": "Chromium-based privacy browser with ad & tracker blocking, cross-device encrypted sync, secure VPN proxy, web extensions, PWA manager, and battery saver mode.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
