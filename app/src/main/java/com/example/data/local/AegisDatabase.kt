@@ -43,7 +43,7 @@ abstract class AegisDatabase : RoomDatabase() {
                             }
                         }
                     })
-                    .fallbackToDestructiveMigration()
+                    .fallbackToDestructiveMigration(true)
                     .build()
                 INSTANCE = instance
                 instance

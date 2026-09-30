@@ -20,9 +20,9 @@ import androidx.compose.foundation.lazy.items
 import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.icons.Icons
+import androidx.compose.material.icons.automirrored.filled.Launch
 import androidx.compose.material.icons.filled.Add
 import androidx.compose.material.icons.filled.Delete
-import androidx.compose.material.icons.filled.Launch
 import androidx.compose.material.icons.filled.OpenInBrowser
 import androidx.compose.material.icons.filled.Widgets
 import androidx.compose.material3.AlertDialog
@@ -216,7 +216,7 @@ fun WebAppsHubDialog(
                                 modifier = Modifier.size(36.dp)
                             ) {
                                 Icon(
-                                    imageVector = Icons.Default.Launch,
+                                    imageVector = Icons.AutoMirrored.Filled.Launch,
                                     contentDescription = "Launch App",
                                     tint = AegisEmerald,
                                     modifier = Modifier.size(20.dp)
